@@ -3,24 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World with Typescript</title>
+<title>Cine Reservas - Prototipo</title>
+    <script type="module" src="/src/main.ts"></script>
   </head>
+
+
   <body class="min-h-screen bg-slate-100 text-slate-900">
     <main class="mx-auto flex min-h-screen max-w-2xl flex-col items-center justify-center gap-6 p-6">
       <h1 class="text-4xl font-bold tracking-tight">Hello World with Typescript</h1>
 
-      <section class="w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-        <img
-          src="/rigo-baby.jpg"
-          alt="Hello Rigo"
-          class="h-64 w-full bg-slate-50 object-contain p-2"
-        />
-        <div class="p-5">
-          <h2 class="text-xl font-semibold text-slate-900">Hello Rigo</h2>
-          <p id="app" class="mt-2 text-sm text-slate-600"></p>
+               
+          <div id="app" ></div>
+      <div class="min-h-screen bg-slate-900 text-white p-8 flex flex-col items-center">
+    <h1 class="text-3xl font-bold mb-6 text-indigo-400">Cine Independiente - Reservas</h1>
+
+    <div class="w-64 h-2 bg-slate-500 rounded-lg mb-12 shadow-[0_10px_20px_rgba(255,255,255,0.1)]"></div>
+    <p class="text-xs text-slate-500 uppercase tracking-widest mb-8">Pantalla</p>
+
+    <div id="mapa-asientos" class="grid grid-cols-10 gap-2 mb-8 bg-slate-800 p-6 rounded-xl shadow-2xl">
         </div>
-      </section>
+
+    <div class="bg-slate-800 p-6 rounded-xl w-full max-auto max-w-md border border-slate-700">
+        <div class="flex justify-between mb-4">
+            <span id="contador-libres" class="text-green-400 font-medium">Libres: --</span>
+            <span id="contador-ocupados" class="text-red-400 font-medium">Ocupados: --</span>
+        </div>
+        
+        <div id="logs" class="text-sm text-slate-400 italic text-center h-6">
+            Selecciona un asiento para reservar
+        </div>
+
+        <button id="btn-sugerir" class="mt-6 w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition-colors">
+            Sugerir pareja (Asientos contiguos)
+        </button>
+    </div>
+</div>
+    
     </main>
-    <script type="module" src="/src/main.ts"></script>
+   
   </body>
 </html>
