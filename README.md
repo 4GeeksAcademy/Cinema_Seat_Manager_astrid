@@ -69,6 +69,8 @@ import { myVar } from "./file2";
 
 This boilerplate is compatible with Vercel in one step.
 
+![Cinema Seat Manager en TypeScript](./public/Cinema%20Seat%20Manager%20en%20TypeScript.jpg)
+
 ## Thank you
 
 This and many other projects are built by students as part of the [4Geeks Academy Bootcamp](https://4geeksacademy.co/), by [@ehiber](https://github.com/ehiber). Find out more about our [AI Engineering Course](https://4geeksacademy.com/us/coding-bootcamps/ai-engineering), [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
